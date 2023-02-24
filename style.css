@@ -1,0 +1,145 @@
+
+
+:root {
+    --transform: rotateX(45deg);
+}
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+    
+}
+.one {
+    background: red;
+    transform: skew(25deg , 25deg);
+    margin-top: 100px;
+    margin-left: 100px;
+        z-index: 0;
+} 
+   
+.two {  
+    background: black;
+    transform: skew(-25deg, -25deg);
+        margin-left: 100px;
+            z-index: 0;
+    
+
+}
+.three{
+    background: red;
+    transform: skew(-25deg, -25deg);
+    display: block;
+    margin-left: 100px;
+    margin-top: 100px;
+        z-index: 0;
+    }
+.four {
+    background: black;
+    transform: skew(25deg, 25deg);
+    display: block;
+    margin-left: 350px;
+    margin-top: -150px;
+        z-index: -1;
+}
+.five{
+    background-color: black;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+}
+.six {
+    background-color: red;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+    transform: scaleX(75%);
+}
+.seven {
+    background-color: black;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+    transform: scaleX(50%);
+}
+.eight {
+    background-color: red;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+    transform: scaleX(25%);
+}
+.nine {
+    background-color: black;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+    transform: scaleX(12.5%);
+}
+.ten {
+    background-color:red;
+    height: 350px;
+    width: 60px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 272px;
+    float: left;
+    transform: scaleX(2%);
+}
+.eleven {
+    background: red;
+    transform: skew(25deg,25deg);
+    margin-top: -280px;
+    margin-left: 80px;
+    float: left;
+    z-index: 0;
+    rotate: 136deg;
+}
+.twelve {
+    background: black;
+    transform: skew(-25deg, -25deg);
+    margin-top: -280px;
+    margin-left: 213px;
+    float: left;
+    z-index: -2;
+    rotate: 135deg;
+}
+.thirteen {
+    background: red;
+    transform: skew(-25deg, -25deg);
+    margin-top: -280px;
+    margin-left: 241px;
+    float: left;
+    z-index: 0;
+    rotate: 135deg;
+}
+.fourteen {
+    background: black;
+    transform: skew(25deg, 25deg);
+    margin-top: -280px;
+    margin-left: 370px;
+    float: left;
+    z-index: -1;
+    rotate: 135deg;
+}
